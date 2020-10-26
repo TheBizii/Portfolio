@@ -1,0 +1,43 @@
+<projects>
+	<project>
+		<title>Pixelator</title>
+		<description>A Spigot plugin to convert .PNG files into Minecraft pixel art.</description>
+		<technologies>
+			<technology>Java</technology>
+			<technology>MySQL</technology>
+		</technologies>
+		<status>Finished</status>
+		<moreinfo pagetitle="Github">https://github.com/TheBizii/Pixelator</moreinfo>
+	</project>
+	<project>
+		<title>LeafAC</title>
+		<description>A lightweight cheat detection plugin for Minecraft.</description>
+		<technologies>
+			<technology>Java</technology>
+		</technologies>
+		<status>To be continued</status>
+		<moreinfo pagetitle="Github">https://github.com/TheBizii/LeafAC</moreinfo>
+	</project>
+	<project>
+		<title>Personal gradebook</title>
+		<description>A personal gradebook (part of vocational matura).</description>
+		<technologies>
+			<technology>HTML</technology>
+			<technology>PHP</technology>
+			<technology>JS</technology>
+			<technology>CSS</technology>
+			<technology>MySQL</technology>
+		</technologies>
+		<status>Finished</status>
+		<moreinfo pagetitle="Contact me">#contact</moreinfo>
+	</project>
+	<project>
+		<title>ACM 2018</title>
+		<description>Solutions to four assignments on ACM 2018 competition.</description>
+		<technologies>
+			<technology>C#</technology>
+		</technologies>
+		<status>Finished</status>
+		<moreinfo pagetitle="Github">https://github.com/TheBizii/ACM_2018</moreinfo>
+	</project>
+</projects>

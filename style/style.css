@@ -1,0 +1,559 @@
+body {
+	margin: 0px;
+	scroll-behavior: smooth;
+	background-color: #e5f1fa;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.grid-three-col {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+div.header {
+	height: 150px;
+	width: 100%;
+	background-color: #2A4B6E;
+	line-height: 70px;
+	border-bottom-right-radius: 80px;
+	border-bottom-left-radius: 80px;
+}
+
+.stick-left {
+	float: left;
+}
+
+.stick-vmiddle {
+	float: center;
+}
+
+ul.nav, ul.social {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+ul.nav {
+	padding: 0 0 0 30px;
+}
+
+ul.social {
+	float: right;
+	padding-right: 20px;
+}
+
+ul.nav>li, ul.social>li {
+	display: inline;
+	margin-right: 10px;
+	font-family: 'Rubik';
+	color: #404040;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.navlink {
+	color: #f1f9ff;
+	border: solid 2px #2A4B6E;
+	padding: 2px;
+}
+
+a.navlink:hover {
+	border: solid 2px #f1f9ff;
+	border-radius: 2px;
+	background-color: #f1f9ff;
+	color: #2A4B6E;
+}
+
+ul.nav>li:last-child, ul.social>li:last-child {
+	margin-right: 0;
+}
+
+.mode-switch {
+	width: 120px;
+	height: 40px;
+	background-color: #e5f1fa;
+	margin-top: 15px;
+	border-radius: 45px;
+	padding: 1px;
+	border: solid 1px #e5f1fa;
+	display: grid;
+	grid-template-columns: auto auto;
+	font-family: 'Rubik';
+	cursor: context-menu;
+	color: #2A4B6E;
+}
+
+.slider {
+	width: 30px;
+	height: 30px;
+	background-color: #2A4B6E;
+	margin: 5px;
+	border-radius: 45px;
+	display: inline-block;
+}
+
+.mode-switch>p {
+	height: 40px;
+	margin: 0;
+	line-height: 44px;
+	text-align: top;
+	font-weight: bold;
+}
+
+.page-content {
+	padding: 0 70px 0 70px;
+}
+
+/* Home section */
+
+#home {
+	padding-top: 180px;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	color: #2A4B6E;
+}
+
+#home>img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	border-radius: 100%;
+}
+
+.big-text {
+	font-size: 60px;
+	font-family: 'Rubik';
+}
+
+#introduction {
+	font-size: 21px;
+	font-family: 'Rubik';
+}
+
+.button {
+	border: solid 1px #2A4B6E;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Rubik';
+	color: #2A4B6E;
+	display: inline-block;
+	margin-top: 20px;
+	width: auto;
+	background-color: transparent;
+}
+
+.button:hover {
+	background-color: #2A4B6E;
+	color: #e5f1fa;
+}
+
+/* About section */
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../graphics/fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Recoleta';
+	src: url('../graphics/fonts/Recoleta-Regular.otf');
+}
+
+.upper-border {
+	background-color: #2A4B6E;
+	width: 100%;
+	height: 20vh;
+	margin-top: 350px;
+	line-height: 100px;
+	font-family: 'Rubik';
+	font-size: 60px;
+	color: #e5f1fa;
+	padding-top: 10px;
+}
+
+.upper-border>p, .blue_heading, .light_heading {
+	font-family: 'Recoleta';
+	text-align: center;
+	font-size: 70px;
+	margin: 40px 0;
+}
+
+.blue_heading {
+	color: #2A4B6E;
+	margin-top: 0px !important;
+}
+
+.about-content {
+	background-color: #2A4B6E;
+	height: calc(80vh - 10px);
+	padding: 0 10% 0 10%;
+}
+
+.description_about {
+	color: #e5f1fa;
+	font-family: 'Rubik';
+	font-size: 18px;
+	margin-top: 0;
+	line-height: 1.5;
+}
+
+.highlight_blue_background {
+	border-bottom: dotted;
+	color: white !important;
+}
+
+.highlight_light_background {
+	border-bottom: dotted;
+	color: black !important;
+}
+
+.highlight_blue_background:hover {
+	color: #d5b491 !important;
+}
+
+.highlight_light_background:hover {
+	color: #bf4055 !important;
+}
+
+.highlight_blue_background:visited {
+	color: #d5b491;
+}
+
+.highlight_light_background:visited {
+	color: black;
+}
+
+.important_blue_background {
+	color: #d78794;
+	font-size: 20px;
+}
+
+.button_blue {
+	border: solid 1px #e5f1fa;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Rubik';
+	color: #e5f1fa;
+	display: inline-block;
+	margin-top: 20px;
+	width: auto;
+}
+
+.button_blue:hover {
+	background-color: #e5f1fa;
+	color: #2A4B6E;
+}
+
+/* History section */
+
+#history {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.timeline {
+	position: relative;
+	margin: 10px auto;
+	padding: 40px 0 0 0;
+	width: 70%;
+}
+
+.timeline:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	width: 2px;
+	height: 90%;
+	background: #2A4B6E;
+}
+
+.timeline_event {
+	padding-bottom: 20px;
+}
+
+.timeline_event h3 {
+	font-family: 'Rubik';
+	color: #2A4B6E;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #bf4055;
+}
+
+.timeline_event p {
+	font-family: 'Recoleta';
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+.time {
+	font-family: 'Rubik';
+	color: #e5f1fa;
+}
+
+.time h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.timeline ul {
+	margin: 0;
+	padding: 0;
+}
+
+.timeline ul li {
+	list-style: none;
+	position: relative;
+	width: 50%;
+	padding: 20px 40px;
+	box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+	float: left;
+	text-align: right;
+	clear: both;
+}
+
+.timeline ul li:nth-child(odd) .time {
+	position: absolute;
+	top: 12px;
+	right: -165px;
+	margin: 0;
+	padding: 8px 16px;
+	background: #bf4055;
+	border-radius: 18px;
+	box-shadow: 0 0 0 4px #d78794;
+}
+
+.timeline ul li:nth-child(even) {
+	float: right;
+	text-align: left;
+	clear: both;
+}
+
+.timeline ul li:nth-child(even) .time {
+	position: absolute;
+	top: 12px;
+	left: -165px;
+	margin: 0;
+	padding: 8px 16px;
+	background: #bf4055;
+	border-radius: 18px;
+	box-shadow: 0 0 0 4px #d78794;
+}
+
+.timeline ul li:nth-child(odd):before {
+	content: '';
+	position: absolute;
+	right: -10px;
+	width: 20px;
+	height: 20px;
+	background: #bf4055;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px #d78794;
+}
+
+.timeline ul li:nth-child(even):before {
+	content: '';
+	position: absolute;
+	left: -10px;
+	width: 20px;
+	height: 20px;
+	background: #bf4055;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px #d78794;
+}
+
+/* Projects section */
+
+#projects, #contact {
+	padding-top: 40px;
+	height: 100vh;
+	text-align: center;
+}
+
+#projects {
+	background-color: #2A4B6E;
+}
+
+.light_heading {
+	color: #e5f1fa;
+	margin-top: 0px !important;
+}
+
+.table {
+	width: 80%;
+	height: 300px;
+	margin: 0 10% 100px 10%;
+	padding: 30px 0 0 0;
+}
+
+.table>table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	font-weight: bold;
+	color: #e5f1fa;
+	font-family: 'Rubik';
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+td {
+	color: #e5f1fa;
+	font-family: 'Rubik';
+	text-align: center;
+	font-size: 17px;
+	padding: 20px 10px;
+	border: solid 1px black;
+}
+
+tr:nth-child(even) {
+	background-color: #323C50;
+}
+
+tr:nth-child(odd):not(:first-child) {
+	background-color: #2C3446;
+}
+
+.table-footer {
+	width: calc(100% - 1px);
+	height: 50px;
+	background-color: #1d232f;
+	border: solid 1px black;
+	font-family: 'Rubik';
+	margin-bottom: 50px;
+}
+
+.table-footer .status, .controls {
+	width: 30%;
+	height: 100%;
+	color: #e5f1fa;
+	line-height: 50px;
+	font-size: 17px;
+	display: inline-block;
+}
+
+.table-footer .controls {
+	text-align: left;
+	float: left;
+	padding: 0 10px;
+	vertical-align: bottom;
+}
+
+.table-footer .controls pre {
+	display: inline-block; 
+	position: relative; 
+	top: -20px; 
+	font-size: 18px;
+	margin-right: 4px;
+}
+
+.table-footer .controls #table_page {
+	width: 20px;
+	height: 20px;
+	display: inline;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Rubik';
+	text-align: center;
+	position: relative;
+	top: -20px;
+	margin: 0 3px;
+	background-color: #2C3446;
+	border: none;
+	color: white;
+}
+
+.table-footer .controls #table_page:hover {
+	background-color: #323C50;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.table-footer .controls img {
+	margin: 15px 3px;
+}
+
+.table-footer .status {
+	float: right;
+	text-align: right;
+	padding: 0 10px;
+	font-size: 15px;
+}
+
+/* Contact section */
+
+#contact {
+	height: 100vh;
+}
+
+#contact_mail {
+	font-family: 'Rubik';
+	font-size: 16px;
+	color: #2A4B6E;
+}
+
+form {
+	width: 40%;
+	margin: 10px auto;
+	padding-top: 20px;
+}
+
+form .required {
+	color: #df2020;
+}
+
+.form_group {
+	position: relative;
+	display: block;
+	margin-top: 20px;
+}
+
+.form_label {
+	font-size: 15px;
+	color: #2A4B6E;
+	font-family: 'Rubik';
+	float: left;
+	position: relative;
+	left: 10px;
+}
+
+.form_input {
+	border: none;
+	display: block;
+	width: 100%;
+	height: 40px;
+	font-size: 17px;
+	background: none;
+	font-family: 'Rubik';
+	border-bottom: solid 2px #2A4B6E;
+	padding: 0 10px;
+}
+
+.form_input:focus {
+	outline: none;
+}
+
+textarea {
+	min-height: 40px;
+	min-width: 100%;
+	max-width: 100%;
+	max-height: 200px;
+	margin-top: 30px !important;
+}

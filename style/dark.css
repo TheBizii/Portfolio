@@ -1,0 +1,147 @@
+body {
+	background-color: #413e3e !important;
+}
+
+div.header {
+	background-color: #1a1919 !important;
+}
+
+ul.nav>li, ul.social>li {
+	color: #404040 !important;
+}
+
+a.navlink {
+	border: solid 2px #1a1919 !important;
+	color: #b3b3b3;
+}
+
+a.navlink:hover {
+	border: solid 2px #b3b3b3 !important;
+	background-color: #b3b3b3 !important;
+	color: #1a1919 !important;
+}
+
+.mode-switch {
+	background-color: #413e3e;
+	border: solid 1px #413e3e;
+	color: #b3b3b3;
+}
+
+.mode-switch>p {
+	text-align: center;
+}
+
+.slider {
+	background-color: #b3b3b3;
+	position: relative;
+	left: 15px;
+}
+
+/* Home section */
+
+#home {
+	color: #b3b3b3 !important;
+}
+
+.button {
+	border: solid 1px #b3b3b3;
+	color: #b3b3b3;
+}
+
+.button:hover {
+	background-color: #b3b3b3 !important;
+	color: #413e3e !important;
+}
+
+/* About section */
+
+.upper-border {
+	background-color: #1a1919;
+	color: #b3b3b3;
+}
+
+.description_about {
+	color: #b3b3b3;
+}
+
+.blue_heading {
+	color: #b3b3b3;
+}
+
+.about-content {
+	background-color: #1a1919;
+}
+
+.highlight_blue_background {
+	color: #b3b3b3 !important;
+}
+
+.highlight_light_background {
+	color: #b3b3b3 !important;
+}
+
+.highlight_light_background:hover {
+	color: #d78794 !important;
+}
+
+.button_blue {
+	border: solid 1px #b3b3b3;
+	color: #b3b3b3;
+}
+
+.button_blue:hover {
+	background-color: #b3b3b3;
+	color: #1a1919;
+}
+
+/* History section */
+
+.timeline:before {
+	background: #1a1919;
+}
+
+.timeline_event h3 {
+	color: #d78794;
+}
+
+.timeline_event p {
+	color: #b3b3b3;
+}
+
+.time {
+	color: #b3b3b3;
+}
+
+/* Projects section */
+
+#projects {
+	background-color: #1a1919;
+}
+
+.table-footer {
+	background-color: #3a465f;
+	color: #b3b3b3;
+}
+
+th, td, .light_heading, .status, .controls pre, #table_page {
+	color: #b3b3b3 !important;
+}
+
+/* Contact section */
+
+#contact_mail {
+	color: #b3b3b3;
+}
+
+form .required {
+	color: #df2020;
+}
+
+.form_label {
+	color: #b3b3b3;
+}
+
+.form_input {
+	border-bottom: solid 2px #b3b3b3;
+	color: #b3b3b3;
+}
